@@ -27,12 +27,13 @@
   }
 
   nav {
-      background-color: white;
+      background-color: rgb(231, 189, 160);
       margin: 0;
       padding: 0;
       position: fixed;
       text-align: center;
       width: 100vw;
+      height: 8vh;
   }
 
   a {
@@ -41,6 +42,7 @@
 
   nav a {
       color: rgb(248, 112, 28);
+      
   }
 
   button, p, span {
@@ -54,7 +56,7 @@
 
   li {
       display: inline-block;
-      font-size: 13px;
+      font-size: 1rem;
       width: 10vw;
       font-family: 'Varela Round', sans-serif;
       font-weight: bold;
@@ -85,11 +87,14 @@
 
   .first {
       border: transparent 1px solid;
-      height: 500px;
+      height: 90vh;
       padding-left: 10%;
-      background-image: url('../images/firstImage-edit.png');
+      background-image: url('../images/fundo1b.png'), linear-gradient(to right, rgba(249, 139, 87, .6), rgba(180, 124, 68, 0.5));
+      background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
+      background-color: linear-gradient(to right, rgb(237, 178, 151), white);
+     
 
   }
 
@@ -131,8 +136,8 @@
   } */
 
   .second {
-      height: 550px;
-      background-color: rgb(255, 246, 240);
+      height: 95vh;
+      background-color: rgba(238, 182, 144, .5);
       padding-top: 3%;
    }
 
@@ -150,7 +155,7 @@
     .second h2 {
     display: block;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 4%;
     }
 
     .second .sobre {
@@ -177,7 +182,7 @@
 
   .galeria {
     height: 800px;
-    background-color: rgb(234, 234, 241);
+    background-color: rgba(237, 178, 151, 0.3);
     border: 1px rgb(247, 250, 252) solid;
   }
 
@@ -185,7 +190,7 @@
       display: block;
       text-align: center;
       color: rgb(249, 91, 7);
-      margin-top: 50px;
+      margin-top: 5%;
       font-weight: bold;
   }
 
@@ -245,7 +250,7 @@
 
   .encomendas {
       border: transparent 1px solid;
-      background-image: linear-gradient(to right, rgb(231, 231, 236), white);
+      background-image: linear-gradient(to right, rgba(248, 130, 75, 0.4), white);
       height: 800px;
   }
 
